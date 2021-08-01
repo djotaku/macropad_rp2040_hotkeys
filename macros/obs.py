@@ -11,13 +11,13 @@ app = {                      # REQUIRED dict, must be named 'app'
         (0xD4D900, 'PAUSE', [Keycode.CONTROL, Keycode.ALT, Keycode.P]),
         (0x00D900, 'STREAM', [Keycode.CONTROL, Keycode.ALT, Keycode.S]),      # Scroll up
         # 2nd row ----------
-        (0x101010, 'Scene 1', [Keycode.CONTROL, Keycode.ALT, '1']),
-        (0x101010, 'Scene 2', [Keycode.CONTROL, Keycode.ALT, '2']),
-        (0x101010, 'Scene 3', [Keycode.CONTROL, Keycode.ALT, '3']),                     # Scroll down
+        (0x101010, 'Scn 1', [Keycode.CONTROL, Keycode.ALT, '1']),
+        (0x101010, 'Scn 2', [Keycode.CONTROL, Keycode.ALT, '2']),
+        (0x101010, 'Scn 3', [Keycode.CONTROL, Keycode.ALT, '3']),                     # Scroll down
         # 3rd row ----------
-        (0x101010, 'Scene 4', [Keycode.CONTROL, Keycode.ALT, '4']),
-        (0x101010, 'Scene 5', [Keycode.CONTROL, Keycode.ALT, '5']),
-        (0x101010, 'Scene 6', [Keycode.CONTROL, Keycode.ALT, '6']),
+        (0x101010, 'Scn 4', [Keycode.CONTROL, Keycode.ALT, '4']),
+        (0x101010, 'Scn 5', [Keycode.CONTROL, Keycode.ALT, '5']),
+        (0x101010, 'Scn 6', [Keycode.CONTROL, Keycode.ALT, '6']),
         # 4th row ---------- (as of 20210801 these are unused for my OBS config)
         (0x000000, 'Ada', [Keycode.CONTROL, 'n', -Keycode.COMMAND,
                            'www.adafruit.com\n']),   # Adafruit in new window
