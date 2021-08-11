@@ -1,6 +1,6 @@
 # Macropad RP2040 - Hotkeys Project
 
-As of 20210801 the code in Code.py is exactly what was available from Adafruit's tutorial for CircuitPython 7.x on this day. It works well so, for now, rather than reinvent the wheel, I'm just adding my own Macros. (In addition to using some of the macros they already had in there)
+I had to modify the default code from Adafruit ever so slightly for it to work with OBS if OBS didn't have focus. I had to add a sleep of 0.05. (This was also needed in my [QTPy Streamdeck](https://github.com/djotaku/qtpy_streamdeck)) This seems to have a curious side effect of requiring a double tap to change scenes. But Record and Pause seem to work just fine with just one tap.
 
 ## Current Custom Macros
 
