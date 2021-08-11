@@ -9,6 +9,7 @@ key sequences.
 # pylint: disable=import-error, unused-import, too-few-public-methods
 
 import os
+import time
 import displayio
 import terminalio
 from adafruit_display_shapes.rect import Rect
@@ -135,6 +136,7 @@ while True:
             if isinstance(item, int):
                 if item >= 0:
                     MACROPAD.keyboard.press(item)
+                    time.sleep(0.05)
                 else:
                     MACROPAD.keyboard.release(item)
             else:
